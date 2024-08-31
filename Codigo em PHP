@@ -1,0 +1,11 @@
+<?php
+// Função para calcular a soma de dois números
+function soma($a, $b) {
+    return $a + $b;
+}
+
+// Testando a função com diferentes valores
+echo "A soma de 5 e 10 é: " . soma(5, 10) . "<br>";  // A soma de 5 e 10 é: 15
+echo "A soma de 7 e 3 é: " . soma(7, 3) . "<br>";   // A soma de 7 e 3 é: 10
+echo "A soma de 12 e 8 é: " . soma(12, 8) . "<br>"; // A soma de 12 e 8 é: 20
+?>
